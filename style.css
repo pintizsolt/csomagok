@@ -1,0 +1,120 @@
+.home {
+  background-color: rgba(255, 255, 255, 1.0);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.home .div {
+  background-color: rgba(255, 255, 255, 1.0);
+  background: linear-gradient(
+    180deg,
+    rgba(10, 10, 10, 1) 0%,
+    rgba(255, 103, 9, 1) 24%
+  );
+  width: 1920px;
+  height: 2672px;
+  position: relative;
+}
+
+.home .v, .home .element, .home .img, .home .element-2 {
+  border-radius: 20px;
+}
+
+.home .v {
+  position: absolute;
+  width: 344px;
+  height: 326px;
+  top: 302px;
+  left: 162px;
+  object-fit: cover;
+}
+
+.home .text-wrapper {
+  position: absolute;
+  width: 704px;
+  top: 87px;
+  left: 608px;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .element {
+  position: absolute;
+  width: 338px;
+  height: 336px;
+  top: 886px;
+  left: 160px;
+  object-fit: cover;
+}
+
+.home .img {
+  position: absolute;
+  width: 346px;
+  height: 337px;
+  top: 1534px;
+  left: 162px;
+  object-fit: cover;
+}
+
+.home .element-2 {
+  position: absolute;
+  width: 346px;
+  height: 332px;
+  top: 2129px;
+  left: 162px;
+  object-fit: cover;
+}
+
+.home .mini-csomag-db {
+  position: absolute;
+  top: 376px;
+  left: 580px;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .basic-csomag-db {
+  position: absolute;
+  top: 920px;
+  left: 584px;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .pro-csomag-db {
+  position: absolute;
+  top: 1444px;
+  left: 584px;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .ambassador-csomag {
+  position: absolute;
+  top: 2098px;
+  left: 594px;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
